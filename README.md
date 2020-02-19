@@ -1,6 +1,6 @@
 # Prioripy
 
-Python Flask scaffolding project with application factory, auth, session management, blueprints.   
+Python Flask scaffolding project with application factory, auth, session management, db factory, blueprints.   
 
 ## Setup
 
