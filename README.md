@@ -1,4 +1,6 @@
-# prioripy
+# Prioripy
+
+Python Flask scaffolding project with application factory, auth, session management, blueprints.   
 
 ## Setup
 
@@ -11,7 +13,7 @@ $ export FLASK_ENV=development
 ```
 
 
-## Run
+### Run
 
 ```bash
 $ flask run
@@ -24,7 +26,7 @@ $ flask run
 
 ```
 
-Install
+### Install
 
 ```bash
 $ pip install -e .
@@ -34,7 +36,7 @@ $ pip list
 
 ```
 
-Test
+### Test
 
 ```bash
 $ pytest-3
@@ -51,7 +53,7 @@ prioripy/tests/test_factory.py ..                                               
 ============================================================= 24 passed in 3.37 seconds ==============================================================
 ```
 
-Coverage
+### Coverage
 
 ```bash
 $ python3-coverage run -m pytest
