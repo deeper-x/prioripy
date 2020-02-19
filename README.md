@@ -49,7 +49,7 @@ $ pip list
 ```bash
 $ pytest-3
 ================================================================ test session starts =================================================================
-platform linux -- Python 3.6.8, pytest-3.3.2, py-1.5.2, pluggy-0.6.0
+platform linux -- Python 3.8.0, pytest-3.3.2, py-1.5.2, pluggy-0.6.0
 rootdir: /home/deeper-x/PycharmProjects/root_prioripy, inifile: setup.cfg
 collected 24 items                                                                                                                                   
 
