@@ -1,14 +1,15 @@
 # Prioripy
 
-Flask scaffolding project, with:
+Starting point for your Flask project with:
 - __ init __ application factory;
-- auth;
-- session management;
-- db factory; 
-- blueprint; 
-- pytest; 
-- coverage;
+- Auth;
+- Session management;
+- Db factory (default to sqlite3); 
+- Blueprints (w/ 1 demo CRUD app); 
+- Pytest; 
+- Coverage;
 
+No setup needed. Just clone, run and create your blueprints.
 
 
 ## Setup
