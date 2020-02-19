@@ -15,7 +15,6 @@ Flask scaffolding project, with:
 
 ```bash
 $ export PYTHONPATH=$( pwd )
-$ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 $ export FLASK_APP=prioripy
 $ export FLASK_ENV=development
 
