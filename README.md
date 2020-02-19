@@ -1,6 +1,15 @@
 # Prioripy
 
-Python Flask scaffolding project with application factory, auth, session management, db factory, blueprints.   
+Flask scaffolding project, with:
+- __ init __ application factory;
+- auth;
+- session management;
+- db factory; 
+- blueprint; 
+- pytest; 
+- coverage;
+
+
 
 ## Setup
 
@@ -58,7 +67,7 @@ prioripy/tests/test_factory.py ..                                               
 ```bash
 $ python3-coverage run -m pytest
 ================================================================ test session starts =================================================================
-platform linux -- Python 3.6.8, pytest-3.3.2, py-1.5.2, pluggy-0.6.0
+platform linux -- Python 3.8.0, pytest-3.3.2, py-1.5.2, pluggy-0.6.0
 rootdir: /home/deeper-x/PycharmProjects/root_prioripy, inifile: setup.cfg
 collected 24 items                                                                                                                                   
 
