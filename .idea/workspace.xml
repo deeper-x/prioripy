@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="826e98a8-7f5e-45c6-a2ef-1a22effca3e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/prioripy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/prioripy/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="826e98a8-7f5e-45c6-a2ef-1a22effca3e1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/prioripy" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Y1aSYb8YQpoBoNXpgFukqi3DAF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,7 +22,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/prioripy" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,10 +42,32 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/prioripy" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="172" y="24" key="SettingsEditor" timestamp="1582112802995">
+    <state x="377" y="187" width="607" height="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582145983437">
       <screen x="0" y="24" width="1366" height="713" />
     </state>
-    <state x="172" y="24" key="SettingsEditor/0.24.1366.713@0.24.1366.713" timestamp="1582112802995" />
+    <state x="377" y="187" width="607" height="391" key="#com.intellij.fileTypes.FileTypeChooser/0.24.1366.713@0.24.1366.713" timestamp="1582145983437" />
+    <state x="172" y="24" key="SettingsEditor" timestamp="1582120724470">
+      <screen x="0" y="24" width="1366" height="713" />
+    </state>
+    <state x="172" y="24" key="SettingsEditor/0.24.1366.713@0.24.1366.713" timestamp="1582120724470" />
+    <state x="97" y="124" width="1172" height="516" key="dock-window-1" timestamp="1582120724820">
+      <screen x="0" y="24" width="1366" height="713" />
+    </state>
+    <state x="97" y="124" width="1172" height="516" key="dock-window-1/0.24.1366.713@0.24.1366.713" timestamp="1582120724820" />
+    <state x="0" y="24" width="686" height="804" key="find.popup" timestamp="1582141468395">
+      <screen x="0" y="24" width="1366" height="713" />
+    </state>
+    <state x="0" y="24" width="686" height="804" key="find.popup/0.24.1366.713@0.24.1366.713" timestamp="1582141468395" />
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup" timestamp="1582119613816">
+      <screen x="0" y="24" width="1366" height="713" />
+    </state>
+    <state x="346" y="58" width="672" height="678" key="search.everywhere.popup/0.24.1366.713@0.24.1366.713" timestamp="1582119613816" />
   </component>
 </project>

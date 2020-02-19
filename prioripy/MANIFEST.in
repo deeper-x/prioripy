@@ -1,0 +1,4 @@
+include prioripy/sql/schema.sql
+graft prioripy/static
+graft prioripy/templates
+global-exclude *.pyc
