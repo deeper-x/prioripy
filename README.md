@@ -1,6 +1,7 @@
-# Flask Project with batteries charged
+# Flask for web applications 
+(Flask with batteries charged)
 
-Start your flask project, avoiding boring stuff. 
+Start your flask web project, avoiding boring stuff. 
 No setup needed. Just clone, run and create your blueprints.
 
 Starting point for your Flask project with:
