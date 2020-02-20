@@ -62,7 +62,6 @@ Please refer to https://coverage.readthedocs.io/
 ## Setup
 
 ```bash
-$ sudo apt-get install python3-pytest python3-coverage
 $ export PYTHONPATH=$( pwd )
 $ export FLASK_APP=prioripy
 $ export FLASK_ENV=development
