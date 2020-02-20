@@ -72,10 +72,13 @@ $ pipenv install
 ```
 
 
-### Run
+### First run
 
 ```bash
 $ pipenv shell
+$ flask init-db
+Initialized the database.
+
 $ flask run
 * Serving Flask app "webproject" (lazy loading)
  * Environment: development
