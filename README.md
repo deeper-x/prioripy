@@ -12,7 +12,7 @@ Starting point for your Flask project with:
 No setup needed. Just clone, run and create your blueprints.
 
 #### 1. Application factory
-The create_app() inside webproject/__init__.py is the application factory function.
+The create_app() inside prioripy/\__init__.py is the application factory function.
 It contains blueprints as well.
 
 #### 2. Auth
