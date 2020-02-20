@@ -10,9 +10,10 @@ Ready to use:
 2. Auth;
 3. Session management;
 4. Db factory (default to sqlite3); 
-5. Blueprints (you'll find 1 demo blog CRUD app); 
-6. Pytest; 
-7. Coverage;
+5. Blueprints (you'll find 1 demo blog CRUD app);
+6. Templating and static urls
+7. Pytest; 
+8. Coverage;
 
 #### 1. Application factory
 The create_app() inside prioripy/\__init__.py is the application factory function.
@@ -51,13 +52,18 @@ from flask import (
 
 bp = Blueprint('app_name', __name__, url_prefix='/app_url')
 ```
+
+#### 6. Templating and static urls
+Template rendering runs under /templates directory
+Static urls for project assets are available with classical url_for('static', filename='path/to/file')
+
  
-#### 6. Pytest 
+#### 7. Pytest 
 Place tests inside /tests directory.
 Please refer to https://docs.pytest.org/en/latest/
 
 
-#### 7. Coverage
+#### 8. Coverage
 Run coverage for your tests.
 Please refer to https://coverage.readthedocs.io/
 
