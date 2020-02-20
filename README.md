@@ -1,4 +1,7 @@
-# Web Project
+# Flask Project with batteries charged
+
+Start your flask project, avoiding boring stuff. 
+No setup needed. Just clone, run and create your blueprints.
 
 Starting point for your Flask project with:
 1. __ init __ application factory;
@@ -8,8 +11,6 @@ Starting point for your Flask project with:
 5. Blueprints (w/ 1 demo CRUD app); 
 6. Pytest; 
 7. Coverage;
-
-No setup needed. Just clone, run and create your blueprints.
 
 #### 1. Application factory
 The create_app() inside prioripy/\__init__.py is the application factory function.
