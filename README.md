@@ -54,7 +54,7 @@ bp = Blueprint('app_name', __name__, url_prefix='/app_url')
 ```
 
 #### 6. Templating and static urls
-Template rendering runs under /templates directory
+Template rendering runs under /templates directory.
 Static urls for project assets are available with classical url_for('static', filename='path/to/file')
 
  
