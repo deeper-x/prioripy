@@ -2,8 +2,8 @@ import os
 import tempfile
 
 import pytest
-from prioripy import create_app
-from prioripy.db import get_db, init_db
+from webproject import create_app
+from webproject.db import get_db, init_db
 
 with open(os.path.join(os.path.dirname(__file__), 'data.sql'), 'rb') as f:
     _data_sql = f.read().decode('utf8')

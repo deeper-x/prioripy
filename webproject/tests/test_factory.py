@@ -1,4 +1,4 @@
-from prioripy import create_app
+from webproject import create_app
 
 
 def test_config():

@@ -3,8 +3,8 @@ from flask import (
 )
 from werkzeug.exceptions import abort
 
-from prioripy.auth import login_required
-from prioripy.db import get_db
+from webproject.auth import login_required
+from webproject.db import get_db
 
 bp = Blueprint('blog', __name__)
 

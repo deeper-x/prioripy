@@ -1,4 +1,4 @@
-# Prioripy
+# Web Project
 
 Starting point for your Flask project with:
 1. __ init __ application factory;
@@ -12,7 +12,7 @@ Starting point for your Flask project with:
 No setup needed. Just clone, run and create your blueprints.
 
 #### 1. Application factory
-The create_app() inside prioripy/__init__.py is the application factory function.
+The create_app() inside webproject/__init__.py is the application factory function.
 It contains blueprints as well.
 
 #### 2. Auth
@@ -34,7 +34,7 @@ $ flask init-db
 ``` 
 Apps can access the db object with the get_db
 ```python
-from prioripy.db import get_db
+from webproject.db import get_db
 ```
 
 #### 5. Blueprints (w/ 1 demo CRUD app)
@@ -63,7 +63,7 @@ Please refer to https://coverage.readthedocs.io/
 
 ```bash
 $ export PYTHONPATH=$( pwd )
-$ export FLASK_APP=prioripy
+$ export FLASK_APP=webproject
 $ export FLASK_ENV=development
 $ pipenv --python 3.6
 $ pipenv install
@@ -75,7 +75,7 @@ $ pipenv install
 ```bash
 $ pipenv shell
 $ flask run
-* Serving Flask app "prioripy" (lazy loading)
+* Serving Flask app "webproject" (lazy loading)
  * Environment: development
  * Debug mode: on
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
@@ -97,16 +97,16 @@ $ pip list
 ### Test
 
 ```bash
-(prioripy_root) [deeper-x@Aspire-A315-21](master)$ pytest 
+(webproject_root) [deeper-x@Aspire-A315-21](master)$ pytest 
 ================================================================ test session starts =================================================================
 platform linux -- Python 3.6.8, pytest-5.3.5, py-1.8.1, pluggy-0.13.1
-rootdir: /home/deeper-x/PycharmProjects/root_prioripy, inifile: setup.cfg
+rootdir: /home/deeper-x/PycharmProjects/root_webproject, inifile: setup.cfg
 collected 24 items                                                                                                                                   
 
-prioripy/tests/test_auth.py ........                                                                                                           [ 33%]
-prioripy/tests/test_blog.py ............                                                                                                       [ 83%]
-prioripy/tests/test_db.py ..                                                                                                                   [ 91%]
-prioripy/tests/test_factory.py ..                                                                                                              [100%]
+webproject/tests/test_auth.py ........                                                                                                           [ 33%]
+webproject/tests/test_blog.py ............                                                                                                       [ 83%]
+webproject/tests/test_db.py ..                                                                                                                   [ 91%]
+webproject/tests/test_factory.py ..                                                                                                              [100%]
 
 ============================================================= 24 passed in 3.37 seconds ==============================================================
 ```
@@ -114,16 +114,16 @@ prioripy/tests/test_factory.py ..                                               
 ### Coverage
 
 ```bash
-(prioripy_root) [deeper-x@Aspire-A315-21](master)$ coverage3 run -m pytest
+(webproject_root) [deeper-x@Aspire-A315-21](master)$ coverage3 run -m pytest
 ================================================================ test session starts =================================================================
 platform linux -- Python 3.6.8, pytest-5.3.5, py-1.8.1, pluggy-0.13.1
-rootdir: /home/deeper-x/PycharmProjects/root_prioripy, inifile: setup.cfg
+rootdir: /home/deeper-x/PycharmProjects/root_webproject, inifile: setup.cfg
 collected 24 items                                                                                                                                   
 
-prioripy/tests/test_auth.py ........                                                                                                           [ 33%]
-prioripy/tests/test_blog.py ............                                                                                                       [ 83%]
-prioripy/tests/test_db.py ..                                                                                                                   [ 91%]
-prioripy/tests/test_factory.py ..                                                                                                              [100%]
+webproject/tests/test_auth.py ........                                                                                                           [ 33%]
+webproject/tests/test_blog.py ............                                                                                                       [ 83%]
+webproject/tests/test_db.py ..                                                                                                                   [ 91%]
+webproject/tests/test_factory.py ..                                                                                                              [100%]
 
 ============================================================= 24 passed in 3.28 seconds ==============================================================
 ```
