@@ -1,15 +1,16 @@
 # Flask scaffolding, for web applications 
-(Flask with batteries charged)
+(AKA Flask with batteries charged)
 
-Start your flask web project, avoiding boring stuff. 
-No setup needed. Just clone, run and create your blueprints.
+Build flask web projects avoiding boring stuff. 
+No setup needed. 
+Just clone, set flask envs and run.
 
-Starting point for your Flask project with:
+Ready to use:
 1. __ init __ application factory;
 2. Auth;
 3. Session management;
 4. Db factory (default to sqlite3); 
-5. Blueprints (w/ 1 demo CRUD app); 
+5. Blueprints (you'll find 1 demo blog CRUD app); 
 6. Pytest; 
 7. Coverage;
 
@@ -59,6 +60,8 @@ Please refer to https://docs.pytest.org/en/latest/
 #### 7. Coverage
 Run coverage for your tests.
 Please refer to https://coverage.readthedocs.io/
+
+
 
 
 ## Setup
