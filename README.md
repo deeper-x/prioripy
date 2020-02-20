@@ -54,7 +54,7 @@ Place tests inside /tests directory.
 Please refer to https://docs.pytest.org/en/latest/
 
 
-####7. Coverage;
+#### 7. Coverage
 Run coverage for your tests.
 Please refer to https://coverage.readthedocs.io/
 
