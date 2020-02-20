@@ -1,4 +1,4 @@
-# Flask for web applications 
+# Flask scaffolding, for web applications 
 (Flask with batteries charged)
 
 Start your flask web project, avoiding boring stuff. 
